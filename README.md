@@ -7,6 +7,8 @@ This module allows you to mange your dock using Kyle Crawford’s awesome dockut
 ## Usage
 
 ```puppet
+include dockutil
+
 dockutil::item { 'Add iTerm':
 		item 	 => "/Applications/iTerm.app",
 		label	 => "iTerm",
