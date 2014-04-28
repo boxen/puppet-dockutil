@@ -32,7 +32,6 @@ define dockutil::item (
         notify  => Exec["kill dock ${label}"],
       }
     }
-
   }
 
   exec {"kill dock $label":
